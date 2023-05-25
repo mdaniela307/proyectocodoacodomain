@@ -1,0 +1,162 @@
+
+body{
+    margin: 0;
+    h1{font-family: Arial, Helvetica, sans-serif;}
+    h2{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    h3{font-family: Arial, Helvetica, sans-serif}
+    p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 70px;
+    min-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding: 10px;
+    background-color: #F6F6F6;
+}
+nav a{
+    font font-weight: 600;
+    padding-right: 10px;
+ }
+nav a:hover{
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    background-color: #F6F6F6;
+}
+#indexcol2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+#indexp2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: auto;
+}
+.productrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    column-gap: 25px;
+}
+
+#productcol1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+#productpar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 80px;
+}
+.piepagina{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    gap: 5;
+    width: 100%;
+    height: 100%;
+    grid-template-areas:'logo suscripcion rrss';
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: #E7E7E7;
+}
+.logopie{
+grid-area: logo;
+align-items: center;
+}
+.piepagina .logopie img{
+    width: 250px;
+}
+
+.formsuscribe{
+grid-area: suscripcion;
+font-size: 15px;
+margin-top: 35px;
+margin-right: 25px;
+justify-content: center;
+}
+.redespie{
+grid-area: rrss;
+font-size: 15px;
+margin-top: 35px;
+color: black;
+justify-content: center;
+}
+.faqfooter{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 15px;
+}
+.respfooter{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 15px;
+}
+.faqfooter a:hover{
+    color: white;
+}
+
+.enviofooter a:hover{
+    color: white;
+}
+.respfooter a:hover{
+    color: white;
+}
+
+
+.formulario{
+    background-color: #F6F6F6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 500px;
+    margin: auto;
+    max-width: 100%;
+    position: relative;
+    align-content: center;
+}
+.titulo_formulario{
+   padding-top: 10px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.input_formulario, .submit_formulario, .texto_formulario{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif
+   
+}
+.input_formulario{
+    padding: 10px;
+    width: 95%;
+}
+.texto_formulario{
+    width: 99%;
+}

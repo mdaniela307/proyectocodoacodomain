@@ -1,0 +1,36 @@
+.slideshow {
+	width: 1280px;
+    height: auto;
+	overflow: hidden;
+}
+
+.slideshow ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 10s infinite ease-in-out;
+}
+
+.slideshow li {
+	width: 100%;
+	list-style: none;
+}
+
+.slideshow img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	25% {margin-left: 0;}
+	
+	30% {margin-left: -100%;}
+	55% {margin-left: -100%;}
+	
+	60% {margin-left: -200%;}
+	85% {margin-left: -200%;}
+	
+	90% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}

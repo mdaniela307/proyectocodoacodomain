@@ -1,0 +1,35 @@
+.home{
+    padding: 0px;
+    margin: 0px;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inflex{
+    flex: 1;
+    min-width: 300pxd;
+      
+}
+.inflex:first-child{
+    flex: 1;
+    padding: 15px;
+    background-color: #F6F6F6;
+    margin: 20px;
+}
+.inflex div{
+    padding: 15px;
+    background-color: #F6F6F6;
+    margin: 20px;
+}
+
+#rescuecat{
+    margin-top: 15px;
+    width: 600px;
+}
+.textoresp{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.titulosresp{
+    font-family: Arial, Helvetica, sans-serif;
+}

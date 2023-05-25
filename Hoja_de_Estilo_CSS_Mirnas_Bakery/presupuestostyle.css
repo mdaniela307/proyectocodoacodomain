@@ -1,0 +1,8 @@
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mainPpto{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
